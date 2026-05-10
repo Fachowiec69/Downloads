@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "pl.durex.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityRenderDispatcherMixin",
+    "GameRendererMixin",
+    "ProjectileUtilMixin",
+    "EntityGlowMixin",
+    "GuiBlurMixin",
+    "InGameHudMixin",
+    "ItemCooldownAccessor",
+    "HeldItemRendererMixin",
+    "NoPushMixin",
+    "LeverCobwebMixin",
+    "MsgBotChatMixin",
+    "MsgBotScreenHandlerMixin",
+    "MsgBotPauseMixin",
+    "HideVanillaNametagMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
